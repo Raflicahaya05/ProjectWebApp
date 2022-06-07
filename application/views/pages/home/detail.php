@@ -13,8 +13,8 @@
 			<h2 class="font-weight-bold"><?= $game['name'] ?></h2>
 			<h4 class="font-weight-normal"><?=  ucfirst($game['edition']) ?> Edition</h4>
 			<br> <br>
-			<p><?= character_limiter($game['description'], 200) ?></p>
-			<a href="#description" class="text-info font-weight-bold">View more</a>
+			<!-- <p><?= character_limiter($game['description'], 200) ?></p>
+			<a href="#description" class="text-info font-weight-bold">View more</a> -->
 			<br> <br>
 			<p class="font-weight-bold">EDITION</p>
 			<h5><span class="badge badge-info badge-pill p-2"><?=  ucfirst($game['edition']) ?></span></h5>
@@ -34,7 +34,7 @@
 	<!-- End of hero -->
 
 	<!-- Summary -->
-	<div class="row mt-5 mb-2">
+	<!-- <div class="row mt-5 mb-2">
 		<div class="col">
 			<h3 id="description">Summary</h3>
 		</div>
@@ -44,11 +44,11 @@
 		<div class="col bg-light p-5">
 			<?= $game['description'] ?>
 		</div>
-	</div>
+	</div> -->
 	<!-- End of summary -->
 
 	<!-- System requirements -->
-	<div class="row mt-5 mb-2">
+	<!-- <div class="row mt-5 mb-2">
 		<div class="col">
 			<h3>System Requirements</h3>
 		</div>
@@ -58,7 +58,7 @@
 		<div class="col bg-light p-5">
 			<?= $game['requirements'] ?>
 		</div>
-	</div>
+	</div> -->
 	<!-- End of System requirements -->
 </div>
 
