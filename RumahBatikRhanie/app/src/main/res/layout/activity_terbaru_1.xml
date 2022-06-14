@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFEF"
+    android:layout_height="match_parent"
+    tools:context=".Terbaru_1">
+    <!-- navigasi bar-->
+    <androidx.appcompat.widget.Toolbar
+        android:gravity="center"
+        android:background="@drawable/khusus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="STYLE HIJAB KEKINIAN"
+                android:textColor="@color/warnaputih"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <ImageView
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:src="@drawable/nu1"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:text="1. PILIHLAH HIJAB DENGAN MOTIF ABSTRAK  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:text="Bisa dikatakan, style hijab modern dengan motif abstrak sedang cukup populer di kalangan anak muda. Model abstrak ini relatif lebih menggambarkan jiwa yang pemberani dan penuh semangat. Sejalan dengan karakter anak muda yang masih ingin mengeksplorasi banyak hal, termasuk mencari gaya fashion yang memang sesuai dengan dirinya."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <ImageView
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:src="@drawable/nu2"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:text="2. JANGAN SEMBARANGAN MEMILIH WARNA   "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:textColor="@color/texthitam"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:text="Selain motif abstrak, kamu sebenarnya juga bisa mencoba hijab dengan motif bunga-bunga atau pemandangan. Akan tetapi, agar tidak terkesan tua, pilihlah warna hijab yang mencerminkan warna remaja masa kini. Warna-warna yang direkomendasikan untuk kamu pilih adalah warna-warna lembut dalam barisan warna pastel, serta warna-warna natural bold seperti hitam, navy, maroon, atau burgundy. Hindari warna cerah dan mencolok yang akan memberi kesan tua pada hijab kamu.
+ "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <ImageView
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:src="@drawable/nu3"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:text="3.  UTAMAKAN HIJAB DENGAN BAHAN VOAL   "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:text="Selanjutnya, selain motif dan warna, bahan material hijab juga akan memberikan kesan pada tampilan penggunanya. Khusus untuk kamu para remaja, gunakanlah hijab motif dengan bahan voal yang lebih terkesan kasual tetapi tetap terlihat premium. Hindari bahan-bahan satin ataupun silk yang terlalu licin dan mengkilap karena identik dengan gaya hijab para ibu-ibu."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <ImageView
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:src="@drawable/nu4"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:text="4. PADUKAN DENGAN STYLE REMAJA  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:textColor="@color/texthitam"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:text="Terakhir, kamu juga harus memastikan bahwa hijab motif kamu cocok untuk dipadukan dengan style hijab ala remaja atau anak muda. Seperti misalnya style hijab casual dengan kemeja atau jaket denim. Kamu juga bisa melihat tren hijab motif yang digunakan oleh para selebgram hijabers muda sebagai referensi."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.BatikRani">
+
+    \\tambahkan permession
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Batik Rhanie"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.BatikRani.konfirmasi"></activity>
+        <activity android:name="com.example.BatikRani.pembayaran" />
+        <activity android:name="com.example.BatikRani.transaksi" />
+        <activity android:name="com.example.BatikRani.kainbatik2_terbaru" />
+        <activity android:name="com.example.BatikRani.kain_terbaru" />
+        <activity android:name="com.example.BatikRani.HowToOrder" />
+        <activity android:name="com.example.BatikRani.diskon_bajuwanita1" />
+        <activity android:name="com.example.BatikRani.diskon_bajuwanita2" />
+        <activity android:name="com.example.BatikRani.diskon_kain2" />
+        <activity android:name="com.example.BatikRani.diskon_kain1" />
+        <activity android:name="com.example.BatikRani.baju_wanita4" />
+        <activity android:name="com.example.BatikRani.baju_wanita2" />
+        <activity android:name="com.example.BatikRani.baju_wanita3" />
+        <activity android:name="com.example.BatikRani.baju_wanita1" />
+        <activity android:name="com.example.BatikRani.baju_pria2" />
+        <activity android:name="com.example.BatikRani.baju_pria4" />
+        <activity android:name="com.example.BatikRani.baju_pria3" />
+        <activity android:name="com.example.BatikRani.baju_pria1" />
+        <activity android:name="com.example.BatikRani.kain4" />
+        <activity android:name="com.example.BatikRani.kain3" />
+        <activity android:name="com.example.BatikRani.kain2" />
+        <activity android:name="com.example.BatikRani.kain1" />
+        <activity android:name="com.example.BatikRani.BajuPriaTerbaru" />
+        <activity android:name="com.example.BatikRani.baju_pria_terbaru1" />
+        <activity android:name="com.example.BatikRani.bajuwanita2_terbaru" />
+        <activity android:name="com.example.BatikRani.kainbatik4_terbaru" />
+        <activity android:name="com.example.BatikRani.kainbatik3_terbaru" />
+        <activity android:name="com.example.BatikRani.kategori_wanita" />
+        <activity android:name="com.example.BatikRani.Ketentuan_page3" />
+        <activity android:name="com.example.BatikRani.About_page2" />
+        <activity android:name="com.example.BatikRani.Daftar3" />
+        <activity android:name="com.example.BatikRani.Daftar2" />
+        <activity android:name="com.example.BatikRani.Terbaru_1" />
+        <activity android:name="com.example.BatikRani.Daftar_1" />
+        <activity android:name="com.example.BatikRani.kategori_pria" />
+        <activity android:name="com.example.BatikRani.kategori_kain" />
+        <activity android:name="com.example.BatikRani.Login_page7Activity" />
+        <activity android:name="com.example.BatikRani.MainActivity" />
+        <activity android:name="com.example.BatikRani.menaksir_page5Activity" />
+        <activity android:name="com.example.BatikRani.diskon_page3Activity" />
+        <activity android:name="com.example.BatikRani.katagori_page2Activity" />
+        <activity android:name="com.example.BatikRani.More" />
+        <activity android:name="com.example.BatikRani.News" />
+        <activity android:name="com.example.BatikRani.Shop" />
+        <activity android:name="com.example.BatikRani.Home" />
+        <activity android:name="com.example.BatikRani.Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

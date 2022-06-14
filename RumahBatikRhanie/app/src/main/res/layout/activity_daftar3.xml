@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFEF"
+    android:layout_height="match_parent"
+    tools:context=".Daftar3">
+
+    <!-- navigasi bar-->
+    <androidx.appcompat.widget.Toolbar
+        android:gravity="center"
+        android:background="@drawable/khusus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TIPS MEMULAI HIJAB SYAR'I"
+                android:textColor="@color/warnaputih"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:src="@drawable/nu5"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:text="Bagi para wanita muslimah untuk menutup auratnya dengan benar dengan cara memakai Model Hijab Syar’i. Bukan hanya hijabnya saja yang harus diperhatikan, melainkan juga dari segi model busana muslim yang digunakan juga harus sesuai dengan syariat agama islam. Setelah informasi yang kalian dapatkan kemudian kalian binggung untuk memulai menggunakan hijab syar’i dari mana awalnya dan harus bagaimana. Oleh karena itu Hijab.Style akan memberikan tips memulai hijab syari, ingin tau apa saja? Yuk simak ini!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:text="1.PAKAI PAKAIAN YANG TIDAK MEMBENTUK TUBUH "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:text="Menggunakan pakaian yang longgar adalah salah satu upaya untuk menutup aurat juga, karena menutup aurat tidak hanya soal menutupi bagian tubuhnya saja akan tetapi juga menyamarkan lekuk tubuh sehingga lekuk tubuh kita tidak tercetak pada pakaian ketat yang kita pakai. Untuk itu Islam mengharuskan wanita memakai pakaian yang longgar.
+Tentunya Sebagai wanita muslim ketika kita berpakaian dilarang oleh agama untuk membentuk lekuk tubuh oleh karena itu dianjurkan untuk menggunakan rok dibandingkan celana. karena celana cenderung membentuk lekuk tubuh. Selain itu gunakanlah pakaian yang longgar akan tetapi tidak kelebihan size juga ya. Kalian bisa menyesuaikan dengan karakteristik masing – masing."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:textColor="@color/texthitam"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:text="2. MEMAKAI HIJAB YANG MENUTUPI DATA  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:text="Hijab syar’i bagi seorang wanita muslimah ketika keluar rumah setelah memakai gamis (baju panjang) adalah khimar (kerudung penutup kepala, leher, dan dada), dan jilbab (baju setelah gamis dan khimar yang menutup seluruh badan wanita/abaya). Perlu diingat juga Hindari menggunakan kerudung bertumpuk saat ingin menerapkan gaya jilbab syar'i. Cukup tampil sederhana agar tidak menarik perhatian orang lain. Bila ingin memakai dua scarf, pilih yang warnanya serupa sehingga tidak terlihat berlebihan."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:textColor="@color/texthitam"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:text="3. GUNAKAN DALAMAN HIJAB (MANSET/INNER HIJAB)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:text="Dalaman hijab merupakan hal yang penting, karena jika tidak menggunakan dalaman hijab, maka ada kemungkinan rambut kalian akan menjulur keluar hijab kalian. Selain kelihatan tidak rapi, rambut juga merupakan aurat yang tidak boleh terlihat. Dan Pilih material kerudung dan busana yang tebal. Jika Anda menggunakan material yang tipis seperti sifon sebaiknya tambahkan manset atau dalaman panjang agar tidak menerawang. Itang menambahkan, abaya merupakan salah satu busana yang tepat untuk tampil syar'i. Pilihan warna hitam tidak membuat busana tampak menerawang."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:textColor="@color/texthitam"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:text="4. GUNAKAN CELANA PANJANG DIDALAM ROK ATAU GAMIS YANG DIKENAKAN "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:text="Saat menggunakan rok ataupun gamis, maka ada kemungkinan rok tersingkap ketika terkena angin dan lain-lain. Nah, agar aman kalian bisa menggunakan celana panjang didalam rok atau gamis yang kamu kenakan sehingga kalau sekiranya rok mu tersingkap, auratmu tidak akan terlihat. Demi menjaga kebaikan wanita muslimah juga."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:textColor="@color/texthitam"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:text="5. GUNAKAN KAOS KAKI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:text="Kaki merupakan aurat juga loh buat perempuan, jadi jangan lupa menggunakan kaos kaki ya. Untuk yang suka menggunakan sendal jepit juga tenang saja, karena sekarang sudah banyak kaos kaki yang ada tempat khusus untuk bagian jarinya, jadi memudahkan kalian saat mau menggunakan sendal jepit. Ada juga loh kaos kaki khusus wudhu yang akan memudahkan kalian untuk berwudhu."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

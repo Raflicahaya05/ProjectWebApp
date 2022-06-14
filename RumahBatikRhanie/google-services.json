@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "931788625231",
+    "project_id": "hijabstyle-a72ff",
+    "storage_bucket": "hijabstyle-a72ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931788625231:android:46bfb301fbb02a468a213a",
+        "android_client_info": {
+          "package_name": "com.example.paceshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931788625231-g0l9vftkjis61fivlujuh6sl2hveqs2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBnU_Domf8s5PgvOoIaT1BAJMSAA6AXno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931788625231-g0l9vftkjis61fivlujuh6sl2hveqs2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

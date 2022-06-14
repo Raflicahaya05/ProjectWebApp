@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFEF"
+    android:layout_height="match_parent"
+    tools:context=".Ketentuan_page3">
+    <!--title swipe-->
+    <androidx.appcompat.widget.Toolbar
+        android:gravity="center"
+        android:background="@drawable/khusus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="SYARAT DAN KETENTUAN"
+                android:textColor="@color/warnaputih"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/texthitam"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="PENGEMBALIAN ATAU PENUKARAN KARENA BARANG CACAT ATAU SALAH WARNA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Anda dapat melakukan pengembalian barang apabila produk yang diterima dalam keadaan rusak atau cacat, kami siap menerima penukaran barang.                 Silahkan menghubungi Contact Person yang tersedia dengan mengisikan:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="1. Kode Pembelian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="2. Penjelasan detail mengenai produk yang rusak/cacat/salah warna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="3. Jenis Batik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="4. Lampiran foto produk yang rusak/cacat/salah warna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="5. Tanggal / Hari Pembelian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Noted : Pengembalian tidak lebih dari 2 hari setelah tanggal produk diterima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="KESAHALAN PENGIRIMAN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Apabila terjadi kesalahan pengiriman, hal pertama yang harus anda lakukan adalah melapor ke CP Batik Rhanie yang telah tersedia. Informasikan data diri anda, kesalahan yang terjadi dan barang yang seharusnya anda dapatkan. kesalahan pengiriman ini akan kami atasi secepat mungkin."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="PROSES PENGEMBALIAN DANA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Untuk pengambilan dana kami menggunakan metode Bank Transfer via Bank BNI, BRI, BCA apabila menggunakan Bank lain akan dikenakan biaya administrasi, dimohon untuk mengisikan data dengan benar dan lengkap:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="1. Nama Bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="2. Nomor Rekening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="3. Nama Pemilik Rekening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="REMINDER!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Untuk melakukan penukaran / pengembalian barang harus masih sama dalam keadaan seperti semula (tidak terpakai, tidak kotor, dll). apabila kami menemukan barang sudah digunakan dan kondiri kurang baik, kami tidak bisa menerima proses penukaran /  pengembalian. Barang tersebut akan langsung kami kirim ke anda."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <TextView
+                android:textColor="#BC8F8F"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="ThankYou and Happy Shopping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
